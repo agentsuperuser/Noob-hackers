@@ -19,6 +19,7 @@ C = "\033[36m"    # Cyan
 
 os.system("apt install mpv")
 os.system("mpv berd.mp3")
+os.system("clear")
 def load(word):
         for char in word:
                 print(char,end="")

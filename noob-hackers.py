@@ -16,6 +16,9 @@ W = "\033[0m"     # White
 R = "\033[31m"    # Red
 C = "\033[36m"    # Cyan
 
+
+os.system("apt install mpv")
+os.system("mpv berd.mp3")
 def load(word):
         for char in word:
                 print(char,end="")
